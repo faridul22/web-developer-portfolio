@@ -117,6 +117,10 @@
 }
 
 /* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 .about {
@@ -124,4 +128,14 @@
     background: #FFF8F3;
     margin: 130px;
     padding: 131px 156px;
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info_description {
+    color: #757575;
 }
