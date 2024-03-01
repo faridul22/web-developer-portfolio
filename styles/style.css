@@ -1,0 +1,44 @@
+/* Primary styles */
+.primary_color {
+    color: #FD6E0A;
+}
+
+.primary_btn {
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.web_title {
+    font-size: 45px;
+    font-family: "Open Sans";
+    font-weight: 800;
+
+}
+
+.nav_items {
+    display: flex;
+    align-items: center;
+}
+
+.nav_items li {
+    list-style: none;
+    margin-right: 51px;
+
+}
+
+.nav_items>li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
