@@ -222,3 +222,7 @@ main {
 #remove_border {
     border-bottom: none;
 }
+
+.download_CV {
+    text-align: center;
+}
