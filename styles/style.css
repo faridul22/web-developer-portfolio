@@ -226,3 +226,23 @@ main {
 .download_CV {
     text-align: center;
 }
+
+
+/* footer style */
+.contact_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea,
+input {
+    display: block;
+    padding: 5px 20px;
+    margin-top: 20px;
+
+}
