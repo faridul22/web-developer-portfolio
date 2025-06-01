@@ -265,4 +265,11 @@ input {
     margin: 0 auto;
     width: 80%;
   }
+  .about_info_container {
+    flex-direction: column;
+  }
+  .about {
+    margin: 100px 20px;
+    padding: 40px 50px;
+  }
 }
