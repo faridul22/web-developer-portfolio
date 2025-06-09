@@ -104,7 +104,7 @@ section {
 }
 
 .banner_content {
-  width: 800px;
+  width: 100%;
 }
 
 .banner_greetings {
@@ -250,10 +250,17 @@ input {
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
+  body {
+    padding: 0 10px;
+  }
   .skill_container {
     grid-template-columns: repeat(1, 1fr);
   }
-  .resume_container {
+  .resume_container,
+  .about_info_container,
+  .nav_container,
+  .banner_container,
+  .nav_items {
     flex-direction: column;
   }
   .contact_section {
@@ -265,11 +272,34 @@ input {
     margin: 0 auto;
     width: 80%;
   }
-  .about_info_container {
-    flex-direction: column;
-  }
+
   .about {
     margin: 100px 20px;
     padding: 40px 50px;
+  }
+  .banner_container {
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  .banner_container img {
+    width: 100%;
+  }
+  .nav_items li {
+    margin-right: 20px;
+  }
+
+  .banner_greetings {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .banner_title {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .outline_btn {
+    margin-top: 10px;
+    padding: 18px 46px;
   }
 }
